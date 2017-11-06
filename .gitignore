@@ -1,0 +1,11 @@
+# Mac
+.Ds_Store
+
+# Created by https://www.gitignore.io/api/scala
+
+### Scala ###
+*.class
+*.log
+
+# End of https://www.gitignore.io/api/scala
+
