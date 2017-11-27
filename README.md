@@ -29,4 +29,6 @@ A collection of **how to use** basic Scala Types.
 
 Introduction to the concept of **class** and **Singleton Object** in scala. There is also an example on how to create a simple application with Scala!
 
+### 04_functional_objects
 
+Complete example of a Scala class used to manage Rational numbers!
