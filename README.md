@@ -21,3 +21,12 @@ You can use the command line to run the scripts, like:
 
 This folder contains a simple introduction to Scala language. You can find scripts about Strings, Map, Mutable / Immutable objects/ Read File, etc..
 
+### 02_basic_types_and_operation
+
+A collection of **how to use** basic Scala Types.
+
+### 03_class_object
+
+Introduction to the concept of **class** and **Singleton Object** in scala. There is also an example on how to create a simple application with Scala!
+
+
