@@ -32,3 +32,19 @@ Introduction to the concept of **class** and **Singleton Object** in scala. Ther
 ### 04_functional_objects
 
 Complete example of a Scala class used to manage Rational numbers!
+
+### 05_function_and_closures
+
+Example on how to use functions:
+
+* methods
+* local functions
+* first class functions
+* partially applied functions
+* function calls
+
+### 06_composition_and_inheritance
+
+Example on how to use composition and inheritance to work with classes, subclasses and superclasses.
+
+
