@@ -1,4 +1,4 @@
-# Method inside an object
+# Local functions
 
 Compile this files:
 
