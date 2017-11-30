@@ -52,3 +52,15 @@ Example on how to use composition and inheritance to work with classes, subclass
 Example on how to create and use **Traits**!
 
 
+### 08_package
+
+Simple how to create and use a package.
+
+
+### 09_assertions_and_tests
+
+Two important ways we can use to check that the software we wrote behaves as we expect!
+
+
+
+
