@@ -47,4 +47,8 @@ Example on how to use functions:
 
 Example on how to use composition and inheritance to work with classes, subclasses and superclasses.
 
+### 07_traits
+
+Example on how to create and use **Traits**!
+
 
