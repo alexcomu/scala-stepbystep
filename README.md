@@ -61,6 +61,10 @@ Simple how to create and use a package.
 
 Two important ways we can use to check that the software we wrote behaves as we expect!
 
+### 10_list_detail
+
+A complete overview of Scala's List!
+
 
 
 
