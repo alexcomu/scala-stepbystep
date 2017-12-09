@@ -31,3 +31,36 @@ val num1 :: num2 :: others = random_list
 println(num1, num2, random_list)
 
 
+// First-order methods - a method is first-order if it does not take any functions as arguments.
+
+println("\n### Concatentating two Lists")
+val longList: List[Int] = List(0, 1,2) ::: List(3,4) ::: List(5,6) 
+println( List(0,1,2) ::: List(3,4) ::: List(5,6)  )
+println(longList + " with length: " + longList.length)
+
+println("Init:" + longList.init + ", last:" + longList.last)
+println("Reverse: " + longList.reverse)
+println("Drop 2: " + longList.drop(2))
+println("take 2: " + longList.take(2))
+println("Split at 2: " + longList.splitAt(2)) // Split at second emelent -> Return 2 lists
+
+println("Flattening List of List: " + List(List(1,2), List(3,4)).flatten )
+println("Flattening List of List: " + fruits.map(_.toCharArray).flatten )
+
+val zipped = longList zip List('a', 'b', 'c')
+println("Zip two lists: " +  zipped)
+println("Unzip: " + zipped.unzip)
+
+println("To String: " + fruits.toString)
+println("Make String: " + fruits.mkString(", "))
+println("Make String: " + fruits.mkString("--> ",", "," <--"))
+// Using String Builder...
+val buf = new StringBuilder
+fruits addString (buf, "--> ",", "," <--")
+println(buf)
+
+// Iterator
+val myIt = fruits.iterator
+println(myIt.next)
+println(myIt.next)
+
