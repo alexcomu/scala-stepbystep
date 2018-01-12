@@ -68,7 +68,7 @@ println("\n***\n")
 // Apply operation on each element, return true or false
 println("# FORALL")
 println("ComuList elements ends all with letter o?? --> " + comuList.forall(s=> s.endsWith("o"))) 
-println("(Hello) list elements ends with letter o?? --> " + List("Hello").forall(s=> s.endsWith("o")))
+println("(Hello) list elements ends with letter o?? --> " + List("Hello", "ciccio").forall(s=> s.endsWith("o")))
 
 println("\n***\n")
 

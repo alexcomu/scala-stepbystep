@@ -11,7 +11,7 @@ class BasicIntQueue extends IntQueue {
     def put(x: Int) = { buf += x}
 }
 
-// The trait can onoy be mixed into a class that also extends IntQueue
+// The trait can only be mixed into a class that also extends IntQueue
 trait Doubling extends IntQueue{
     // stackable modifications!! 
     // If you need to mark this method as
@@ -41,13 +41,14 @@ val q = new BasicIntQueue with Doubling
 q.put(10)
 println(q.get()) // 20!
 
-// Order is important!!
+// Order is important!! Filtering and then incrementing
 val myQueue = (new BasicIntQueue with Incrementing with Filtering)
-myQueue.put(-1); myQueue.put(0); myQueue.put(1); 
+myQueue.put(-1); myQueue.put(0); myQueue.put(1);
+// -1 is filtered!
 println(myQueue.get())
 println(myQueue.get())
 
-// Order is important!!
+// Order is important!! Incrementing and then filtering
 val myQueue2 = (new BasicIntQueue with Filtering with Incrementing)
 myQueue2.put(-1); myQueue2.put(0); myQueue2.put(1);   
 println(myQueue2.get())

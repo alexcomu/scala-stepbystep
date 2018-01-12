@@ -7,7 +7,6 @@
 val fruit: List[String] = List("banana", "orange")
 val numbers: List[Int] = List(1,2,3)
 val list_of_list: List[List[Int]] = List(
-
     List(1,2),
     List(3,4)
     )

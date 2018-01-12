@@ -15,6 +15,7 @@ def gcdLoop(x: Long, y: Long): Long = {
         a = b % a
         b = temp
     }
+    // no need to write "return"
     b
 }
 println(gcdLoop(106786178, 5123316))

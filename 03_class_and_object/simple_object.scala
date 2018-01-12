@@ -5,4 +5,3 @@ object MyObject {
 }
 
 println(MyObject.say_hello())
-

@@ -1,4 +1,6 @@
 // Immutable HashSet
+// HashSet is a concrete implementation of a Set.
+
 import scala.collection.immutable.HashSet
 val myHashSet = HashSet("Hello", "Friend")
 println(myHashSet + "Enjoy!")
