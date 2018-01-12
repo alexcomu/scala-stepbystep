@@ -1,6 +1,6 @@
 def sum_if_different(x: Int, y: Int): Int = {
     // If different is fine! 
-    // If are equale --> Exception!
+    // If are equal --> Exception!
     assert(x != y)
     x + y
 }
