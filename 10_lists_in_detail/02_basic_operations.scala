@@ -64,3 +64,7 @@ val myIt = fruits.iterator
 println(myIt.next)
 println(myIt.next)
 
+// toArray & copyToArray
+val arr = fruits.toArray
+println(arr)
+println(arr.toList)

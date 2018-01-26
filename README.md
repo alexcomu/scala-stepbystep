@@ -65,6 +65,7 @@ Two important ways we can use to check that the software we wrote behaves as we 
 
 A complete overview of Scala's List!
 
+### 99_kata
 
-
+Kata exercise from [CodeWars](https://www.codewars.com)
 
